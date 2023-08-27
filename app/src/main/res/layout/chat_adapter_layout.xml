@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/receivedlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="100dp"
+            android:layout_marginStart="30dp">
+            <TextView
+                android:id="@+id/recievedMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Received message"
+                android:background="@drawable/received_message"
+                android:padding="20dp"/>
+            <TextView
+                android:id="@+id/recTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10-08-2020 11:40"
+                android:textSize="10sp"
+                android:layout_marginTop="5dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_alignParentEnd="true"
+            android:orientation="vertical"
+            android:id="@+id/sendedlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="100dp">
+            <TextView
+                android:id="@+id/sendedMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sended message"
+                android:background="@drawable/sended_message"
+                android:padding="20dp"/>
+            <TextView
+                android:layout_gravity="end"
+                android:id="@+id/sendedTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10-08-2020 11:40"
+                android:textSize="10sp"
+                android:layout_marginTop="5dp"
+                />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

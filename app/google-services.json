@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "357684586541",
+    "firebase_url": "https://chatapp-eaba6-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "chatapp-eaba6",
+    "storage_bucket": "chatapp-eaba6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357684586541:android:8c876f23a5dd1f64e970a4",
+        "android_client_info": {
+          "package_name": "com.example.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357684586541-l56qck7d231necicf9p3tm38uqhutgis.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGf2XSeLD3uViYBf0AcjcN_bN0VSwJRQw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "357684586541-l56qck7d231necicf9p3tm38uqhutgis.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
